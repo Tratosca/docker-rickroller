@@ -1,6 +1,6 @@
 version: "3"
 services:
-    rickroll:
+    docker-rickroller:
         ports:
             - 8080:80
-        image: rickroll
+        image: tratosca/docker-rickroller
